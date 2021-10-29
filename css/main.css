@@ -1,13 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1{
   letter-spacing: 2px;
 }
-p{
+section + p{
     line-height: normal;
     text-indent: 2em;
     word-spacing: normal;
 }
-a:link {
-  color:lightblue;
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+  width: 85%;
+}
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  margin: auto;
+}
+
+a:hover {
+  color:rgb(10, 10, 51);
+}
+a{
+  color: blue;
 }
 .contentclass{
   width: 99%;
@@ -24,7 +46,7 @@ header {
 footer {
   text-align: center;
   color: #fff;
-  background-color:rgb(255,170,0,0.5);
+  background-color:rgb(255,170,0,0.5);/*rgb(255,170,0,0.5) == #FA0 opsactiy 50%*/
   position: fixed;
   bottom: 0;
   height: auto;
@@ -78,8 +100,8 @@ article {
     width: 400px;
     height: 300px;
     float: right;
-    margin-right: 5%;
-    margin-bottom: 5%;
+    /* margin-right: 5%; */
+    /* margin-bottom: 5%; */
   }
   .floatright{
     text-align: center;

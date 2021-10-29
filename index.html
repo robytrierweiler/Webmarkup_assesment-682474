@@ -12,13 +12,21 @@
   <link rel="stylesheet" type="text/css" media="screen" href="css/nav.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="css/video.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="css/flex.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Notable">
 
 </head>
-
-<body style="background-image: url(img/beach.jpg);">
+<style>
+  body{
+    background-image:url('img/beach.jpg');
+  }
+  .notable{
+    font-family: 'Notable';
+  }
+</style>
+<body>
   <header>
-    <img src="img/logo.PNG" alt="logo" width="125" height="100" class="logo" />
-    <h1>Travelagent.lu</h1>
+    <img title="logo" src="img/logo.PNG" alt="logo" width="125" height="100" class="logo" />
+    <h1 class="notable">Travelagent.lu</h1>
     <h2>Discover the world</h2>
   </header>
   <nav id="desktop">
@@ -49,7 +57,7 @@
               <input type="checkbox" id="firstdestination">
 
               <section id="asideitems">
-                <p>Cancun is considered to be the heart of the mexican caribbeans. The gorgeous beaches, greatweather and amazing clear and clean waters are also huge pulls for many tourists.
+                <p>Cancun is considered to be the heart of the mexican caribbeans&#46;
                 <a href="https://www.villapalmarcancun.com/blog/destination/why-visit-cancun">read more</a></p>
               </section>
             </nav>
@@ -60,7 +68,7 @@
               <input type="checkbox" id="seconddestination">
 
               <section id="asideitems">
-                <p>Orlando is one of the paces where you can go with your family.
+                <p>Orlando is one of the paces where you can go with your family&#46;
                 <a href="https://www.visitorlando.com/media/press-releases/post/21-new-reasons-to-visit-orlando-this-summer/">read more</a></p>
               </section>
             </nav>
@@ -71,16 +79,16 @@
               <input type="checkbox" id="thirddestination">
 
               <section id="asideitems">
-                <p>Costa Rica is know for its incredible national parks. <a href="https://www.travelandleisure.com/trip-ideas/reasons-to-visit-costa-rica#:~:text=Costa%20Rica%20is%20known%20for,sea%20turtles%2C%20and%20adorable%20sloths.">read more</a></p>
+                <p>Costa Rica is know for its incredible national parks&#46; <a href="https://www.travelandleisure.com/trip-ideas/reasons-to-visit-costa-rica#:~:text=Costa%20Rica%20is%20known%20for,sea%20turtles%2C%20and%20adorable%20sloths.">read more</a></p>
               </section>
             </nav>
           </li>
           <li>
             <nav id="asideclass">
-              <label for="fourthdestination">&#9776; RIVEIRA NAYARIT, MEXICO</label>
+              <label for="fourthdestination">&#9776; RIVEIRA NAYARIT&#44; MEXICO</label>
               <input type="checkbox" id="fourthdestination">
               <section id="asideitems">
-                <p>The city is good for surfing and many surfers are there. <a href="https://flamingos.villadelpalmar.com/blog/destination/5-reasons-to-visit-riviera-nayarit#:~:text=Even%20if%20you%27re%20not,reasons%20to%20visit%20Riviera%20Nayarit.">read more</a></p>
+                <p>The city is good for surfing and many surfers are there&#46; <a href="https://flamingos.villadelpalmar.com/blog/destination/5-reasons-to-visit-riviera-nayarit#:~:text=Even%20if%20you%27re%20not,reasons%20to%20visit%20Riviera%20Nayarit.">read more</a></p>
               </section>
             </nav>
           </li>
@@ -106,9 +114,10 @@
               who want to live the lifestyle of the superlative. Which means it is not unusual to see great cars and things you don't see every day. 
             <a href="https://www.tui.nl/reizen/verenigde-arabische-emiraten/dubai/">more info</a></p>
           </section>
-          <a href="https://www.tui.nl/reizen/verenigde-arabische-emiraten/dubai/">
-          <img src="img/dubai.jpg" alt="dubai" class="image" />
-        </a>
+          <figure>
+          <img title="dubai" src="img/dubai.jpg" alt="dubai" class="image" />
+        <figcaption>Dubai</figcaption>    
+        </figure>
         </article>
         <article class="floatright">
           <h3 class="center">SHANGHAI</h3>
@@ -119,9 +128,10 @@
               paradis from luxury shooping areas to what every you can think of. THe out side market of shanhaiis also worth a look.
             <a href="https://www.tui.nl/reizen/malediven/">more info</a></p>
           </section>
-          <a href="https://www.tui.nl/reizen/malediven/">
-          <img src="img/Shanghai.jpeg" alt="Shanghai" class="image" />
-          </a>
+          <figure>
+          <img title="shanghai" src="img/Shanghai.jpeg" alt="Shanghai" class="image" />
+        <figcaption>Shanghai</figcaption>    
+        </figure>
         </article>
         <article class="floatright margin">
           <h3 class="center">Maldives</h3>
@@ -132,9 +142,10 @@
               The maldives are the perfect place to have a fun but relaxing vacation and brake from your everyday life.
             <a href="https://www.travelandleisure.com/travel-guide/shanghai">more info</a></p>
           </section>
-          <a href="https://www.travelandleisure.com/travel-guide/shanghai">
-          <img src="img/Maldives.jpg" alt="Maldives" class="image" />
-          </a>
+          <figure>
+          <img title="maldiven" src="img/Maldives.jpg" alt="Maldives" class="image" />
+        <figcaption>Maldives</figcaption>    
+        </figure>
         </article>
       </main>
     </section>
@@ -142,7 +153,7 @@
   <footer>
     <section>
       <p class="name">Roby Trierweiler &#169;</p>
-      <p class="name">Video Credit to: drone snap&#169;</p>
+      <p class="name">Video Credit to: <a href="https://www.youtube.com/channel/UCbDH6Ga-wuaam2IHqAxm3hg">drone snap&#169;</a></p>
       <p class="name">All of the photos abouve are copy right free</p>
       <p class="cookie">Cookie statement</p>
     </section>

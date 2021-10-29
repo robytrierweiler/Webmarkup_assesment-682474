@@ -14,14 +14,16 @@ strong{
       }
       .grid-article {
         text-align: center;
-        border: 2px solid black;
+        border-style:solid ;
+        border-width: 2px;
+        border-color: black;
       }
 @media screen and (min-width:1180px) {
 
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 0.1fr 0.1fr 0.1fr 0.2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
         grid-gap: 1px;
         padding: 1px;
         width: 100%;
@@ -48,7 +50,7 @@ strong{
     .grid1 {
         grid-column: 2;
         grid-row-start: 5;
-        grid-row-end: 10;
+        grid-row-end: 11;
     }
     .grid2 {
         grid-column: 1;
@@ -63,44 +65,44 @@ strong{
     .grid4 {
         grid-column: 3;
         grid-row-start: 8;
-        grid-row-end: 10;
+        grid-row-end: 11;
     }
     .grid5 {
         grid-column: 1;
         grid-row-start: 7;
-        grid-row-end: 11;
+        grid-row-end: 12;
     }
     .grid6 {
         grid-column-start: 2;
         grid-column-end: 4;
-        grid-row-start: 10;
+        grid-row-start: 11;
     }
 
     .gridaside1 {
         grid-column: 1;
-        grid-row-start: 11;
-        grid-row-end: 13;
+        grid-row-start: 12;
+        grid-row-end: 14;
     }
     .gridaside2 {
         grid-column: 2;
-        grid-row-start: 11;
-        grid-row-end: 13;
+        grid-row-start: 12;
+        grid-row-end: 14;
     }
     .gridaside3 {
         grid-column: 3;
-        grid-row-start: 11;
-        grid-row-end: 13;
+        grid-row-start: 12;
+        grid-row-end: 14;
     }
     .gridname {
         grid-column: 1 / span 2;
-        grid-row-start: 13;
-        grid-row-end: 15;
+        grid-row-start: 14;
+        grid-row-end: 16;
         background-color: rgb(255,170,0,0.5);
     }
     .gridcookie {
         grid-column: 3;
-        grid-row-start: 13;
-        grid-row-end: 15;
+        grid-row-start: 14;
+        grid-row-end: 16;
         background-color: rgb(255,170,0,0.5);
     }
 }
@@ -210,7 +212,7 @@ strong{
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 0.2fr 0.2fr 0.2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
         grid-gap: 1px;
         padding: 1px;
         width: 100%;

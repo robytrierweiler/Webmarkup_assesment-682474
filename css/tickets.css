@@ -1,23 +1,26 @@
 table{
     width: 68%;
     float: left;
+    color: white;
 }
 @media screen and (max-width:1180px) {
     table{
     width: 100%;
     }
 }
-table,tr,th{
+table,th,tr,td{
     border-style: double;
     border-width: 1px;
     border-color: black;
-
 }
-
+article > p{
+  color: aqua;
+  text-align: center;
+}
 
 /*aside*/
 /*nav*/
-#firstdestination,#seconddestination,#thirddestination,
+#destination,#firstdestination,#seconddestination,#thirddestination,
 #fourthdestination,#fifthdestination{
     display: none;
 }
